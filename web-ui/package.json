@@ -1,0 +1,17 @@
+{
+  "name": "vpn-web-ui",
+  "version": "1.0.0",
+  "description": "Web admin panel for OpenConnect VPN server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "bcryptjs": "^2.4.3",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5"
+  }
+}
